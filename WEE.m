@@ -1,4 +1,16 @@
-%wave equation explicit
+%===================================
+%    Shayan Dodge
+%    MSc in Physics
+% M: +98 935 741 67 63 
+% E: dodgeshayan@gmail.com 
+% A: Tehran, Iran 
+%===================================
+% The explicit solve of the wave equation (u^2(d^2Q/dx^2)=(d^2Q/dt^2))
+% where u is the speed of the wave
+%===================================
+clc
+close all;
+%===================================
 format bank
 u=input('u=');
 x_0=input('x_0=');x_n=input('x_n=');
